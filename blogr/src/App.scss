@@ -1,0 +1,281 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+}
+
+// styling the header.tsx
+.header-container {
+  background: linear-gradient(135deg, #f05a28, #ec008c);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  // background-image: linear-gradient (rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) url(../images/bg-pattern-intro-desktop.svg)) ;
+  background-size: contain;
+  border-radius: 0px 0px 0px 60px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      margin-right: 20px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .navbar-right {
+    button {
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-left: 10px;
+
+      &.signup-btn {
+        background: white;
+        color: #f05a28;
+        border-radius: 20px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+
+.header-content {
+  margin-top: 50px;
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .header-buttons {
+    button {
+      background: white;
+      color: #f05a28;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin: 0 10px;
+
+      &.learn-btn {
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+//  styling the body
+.body {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+
+  h1 {
+    color: #2d314d;
+    margin-bottom: 50px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    .text-section {
+      max-width: 500px;
+      text-align: left;
+
+      .paragraph {
+        margin-bottom: 30px;
+
+        h2 {
+          color: #2d314d;
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: #6c757d;
+          line-height: 1.6;
+        }
+      }
+    }
+
+    .image-section {
+      max-width: 500px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+// styling body 2
+
+
+.state-container {
+  display: flex;
+  background: #252839;
+  border-radius: 10px;
+  border: 3px solid #ec008c;
+  width: 100%;
+  max-width: 1200px;
+  height: 350px;
+  margin: 20px;
+  flex-wrap: wrap;
+   border-radius: 0px 90px 0px 90px;
+   align-items: center;
+  
+  
+
+  .state-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    // padding: 20px;
+
+    img {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  .state-text {
+    flex: 1;
+    align-content: center;
+    color: #fff;
+    padding: 40px;
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+}
+// styling body 3
+
+.body3-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+
+  
+
+  .img3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+  }
+
+  .text3 {
+    flex: 1;
+    color: #333;
+    padding-left: 40px;
+
+    h1, h2 {
+      color: #252839;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+  }
+}
+// styling footer
+.footer {
+  background: #252839;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+
+  div {
+    flex: 1;
+    margin: 0 10px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      cursor: pointer;
+      margin-bottom: 8px;
+    }
+  }
+}
+
